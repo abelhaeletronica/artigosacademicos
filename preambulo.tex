@@ -1,8 +1,11 @@
-% ----------------- Pacotes base -----------------
-\usepackage{fontspec}
-\setmainfont{Times New Roman}
-\usepackage{polyglossia}
-\setdefaultlanguage{brazil}
+% !TeX root = main.tex
+% ----------------- Pacotes base (pdfLaTeX) -----------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+% Fonte semelhante à Times no pdfLaTeX
+\usepackage{newtxtext}
+\usepackage{newtxmath}
 \usepackage{microtype}
 \usepackage{graphicx}
 \usepackage{titlesec}   % títulos de seção
@@ -10,6 +13,8 @@
 \usepackage{changepage} % adjustwidth (citação longa)
 \usepackage{geometry}
 \geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
+
+\usepackage{flafter}  % figuras sempre após serem citadas
 
 \raggedbottom
 
