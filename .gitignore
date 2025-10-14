@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -324,3 +325,26 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+=======
+# LaTeX build
+*.aux
+*.bbl
+*.blg
+*.bcf
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.gz
+*.nav
+*.snm
+*.vrb
+
+# PDFs gerados
+*.pdf
+>>>>>>> 0e5ee7b (Adiciona .gitignore e remove artefatos de compilação do LaTeX)
