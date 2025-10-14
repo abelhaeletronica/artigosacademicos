@@ -1,0 +1,19 @@
+{
+  "latex-workshop.latex.tools": [
+    { "name": "xelatex", "command": "xelatex", "args": ["-interaction=nonstopmode", "-synctex=1", "%DOC%"] },
+    { "name": "biber",   "command": "biber",   "args": ["%DOCFILE%"] }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "XeLaTeX ➜ biber ➜ XeLaTeX ➜ XeLaTeX",
+      "tools": ["xelatex", "biber", "xelatex", "xelatex"]
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "XeLaTeX ➜ biber ➜ XeLaTeX ➜ XeLaTeX",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux", "*.bbl", "*.bcf", "*.blg", "*.fdb_latexmk", "*.fls", "*.log", "*.out",
+    "*.run.xml", "*.synctex(busy)", "*.synctex.gz", "*.toc"
+  ],
+  "latex-workshop.latexmk.enabled": false
+}

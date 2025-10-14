@@ -1,0 +1,930 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{boisFormlessUsersGuide1997}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ac5bcafe99b7f6b331f303d490f682f2}{%
+           family={Bois},
+           familyi={B\bibinitperiod},
+           given={Yve-Alain},
+           giveni={Y\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f9b293dea1213379579249e6d59a1b1}{%
+           family={Krauss},
+           familyi={K\bibinitperiod},
+           given={Rosalind\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=846088021b1a4d1aabef823ad3b0963e}{%
+           family={Pompidou},
+           familyi={P\bibinitperiod},
+           given={Centre\bibnamedelima Georges},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York : Cambridge, Mass}%
+      }
+      \list{publisher}{1}{%
+        {Zone Books}%
+      }
+      \strng{namehash}{1e4a8af51af198fd7e37465c41484ba6}
+      \strng{fullhash}{1e4a8af51af198fd7e37465c41484ba6}
+      \strng{fullhashraw}{1e4a8af51af198fd7e37465c41484ba6}
+      \strng{bibnamehash}{1e4a8af51af198fd7e37465c41484ba6}
+      \strng{authorbibnamehash}{1e4a8af51af198fd7e37465c41484ba6}
+      \strng{authornamehash}{1e4a8af51af198fd7e37465c41484ba6}
+      \strng{authorfullhash}{1e4a8af51af198fd7e37465c41484ba6}
+      \strng{authorfullhashraw}{1e4a8af51af198fd7e37465c41484ba6}
+      \strng{nameabibnamehash}{846088021b1a4d1aabef823ad3b0963e}
+      \strng{nameanamehash}{846088021b1a4d1aabef823ad3b0963e}
+      \strng{nameafullhash}{846088021b1a4d1aabef823ad3b0963e}
+      \strng{nameafullhashraw}{846088021b1a4d1aabef823ad3b0963e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-942299-43-4}
+      \field{langid}{english}
+      \field{nameatype}{collaborator}
+      \field{pagetotal}{296}
+      \field{shorttitle}{Formless}
+      \field{title}{Formless: a user's guide}
+      \field{year}{1997}
+      \field{dateera}{ce}
+    \endentry
+    \entry{caysesIstoNaoUma2014}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=14dd0d920680c54737c42d5ca570e2a9}{%
+           family={Cayses},
+           familyi={C\bibinitperiod},
+           given={Julia\bibnamedelimb Buenaventura\bibnamedelimb Valencia\bibnamedelima de},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14dd0d920680c54737c42d5ca570e2a9}
+      \strng{fullhash}{14dd0d920680c54737c42d5ca570e2a9}
+      \strng{fullhashraw}{14dd0d920680c54737c42d5ca570e2a9}
+      \strng{bibnamehash}{14dd0d920680c54737c42d5ca570e2a9}
+      \strng{authorbibnamehash}{14dd0d920680c54737c42d5ca570e2a9}
+      \strng{authornamehash}{14dd0d920680c54737c42d5ca570e2a9}
+      \strng{authorfullhash}{14dd0d920680c54737c42d5ca570e2a9}
+      \strng{authorfullhashraw}{14dd0d920680c54737c42d5ca570e2a9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{O presente texto faz um percurso pela arte durante o período da ditadura militar no Brasil, analisando especificamente as propostas de obra como ação ou desmaterialização da obra de arte. Partindo da arte abstrata dos anos 1950 e 1960, da teoria do não objeto de Ferreira Gullar e das propostas do crítico Mário Pedrosa, o ensaio aborda obras de Willys de Castro, Ligya Clark, Artur Barrio, Cildo Meireles, Antônio Manuel e o grupo 3Nós3, assim como faz uma incursão pelo chamado boicote à Bienal de São Paulo de 1969. , This essay gives a panorama of art during the period of military dictatorship in Brazil; specifically, it studies the construction of art as an action and dematerialization of the artwork. Starting with the abstract art of the 50s and 60s, the Theory of Non-object of Ferreira Gullar and the papers of Mário Pedrosa, the essay focuses on works of Willys de Castro, Ligya Clark, Artur Barrio, Meireles, Manuel Antonio and 3NÓS3 group, as well into the so-called Boycott of Bienal de São Paulo in 1969.}
+      \field{issn}{0103-4014}
+      \field{journaltitle}{Estudos Avançados}
+      \field{month}{4}
+      \field{number}{80}
+      \field{shortjournal}{Estud. av.}
+      \field{shorttitle}{Isto não é uma obra}
+      \field{title}{Isto não é uma obra: {{Arte}} e ditadura}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{28}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{115\bibrangedash 128}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1590/S0103-40142014000100011
+      \endverb
+      \verb{urlraw}
+      \verb http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-40142014000100011&lng=pt&tlng=pt
+      \endverb
+      \verb{url}
+      \verb http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-40142014000100011&lng=pt&tlng=pt
+      \endverb
+    \endentry
+    \entry{dutraPalcoAoBarro2022}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e14500bd116224071d296269f78c1a52}{%
+           family={Dutra},
+           familyi={D\bibinitperiod},
+           given={Giovanna\bibnamedelima Campanharo},
+           giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Instituto de Artes da Universidade Estadual Paulista “Júlio de Mesquita Filho” - UNESP}%
+      }
+      \strng{namehash}{e14500bd116224071d296269f78c1a52}
+      \strng{fullhash}{e14500bd116224071d296269f78c1a52}
+      \strng{fullhashraw}{e14500bd116224071d296269f78c1a52}
+      \strng{bibnamehash}{e14500bd116224071d296269f78c1a52}
+      \strng{authorbibnamehash}{e14500bd116224071d296269f78c1a52}
+      \strng{authornamehash}{e14500bd116224071d296269f78c1a52}
+      \strng{authorfullhash}{e14500bd116224071d296269f78c1a52}
+      \strng{authorfullhashraw}{e14500bd116224071d296269f78c1a52}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{langid}{portuguese}
+      \field{title}{Do palco ao barro: um estudo sobre Celeida Tostes e sua performance “Passagem”}
+      \field{type}{Trabalho de conclusão de curso de licenciada em ArteTeatro pela UNESP}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\gassi\Zotero\storage\5S7LJ8U2\Dutra - 2022 - Instituto de Artes da Universidade Estadual Paulista “Júlio de Mesquita Filho” - UNESP.pdf
+      \endverb
+    \endentry
+    \entry{edingerEgoArchetypeIndividuation1992}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9608d850a76a0accd8dc239e5f86daa}{%
+           family={Edinger},
+           familyi={E\bibinitperiod},
+           given={Edward\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=b2cdf27d1a24ed86ed39bbe4b7c42a9b}{%
+           family={{C.G. Jung Foundation for Analytical Psychology}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Shambhala}%
+      }
+      \strng{namehash}{b9608d850a76a0accd8dc239e5f86daa}
+      \strng{fullhash}{b9608d850a76a0accd8dc239e5f86daa}
+      \strng{fullhashraw}{b9608d850a76a0accd8dc239e5f86daa}
+      \strng{bibnamehash}{b9608d850a76a0accd8dc239e5f86daa}
+      \strng{authorbibnamehash}{b9608d850a76a0accd8dc239e5f86daa}
+      \strng{authornamehash}{b9608d850a76a0accd8dc239e5f86daa}
+      \strng{authorfullhash}{b9608d850a76a0accd8dc239e5f86daa}
+      \strng{authorfullhashraw}{b9608d850a76a0accd8dc239e5f86daa}
+      \strng{nameabibnamehash}{b2cdf27d1a24ed86ed39bbe4b7c42a9b}
+      \strng{nameanamehash}{b2cdf27d1a24ed86ed39bbe4b7c42a9b}
+      \strng{nameafullhash}{b2cdf27d1a24ed86ed39bbe4b7c42a9b}
+      \strng{nameafullhashraw}{b2cdf27d1a24ed86ed39bbe4b7c42a9b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{isbn}{978-0-87773-576-2}
+      \field{langid}{Inglês}
+      \field{nameatype}{collaborator}
+      \field{pagetotal}{304}
+      \field{shorttitle}{Ego \& archetype}
+      \field{title}{Ego \& archetype: individuation and the religious function of the psyche}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \keyw{Archetype (Psychology),Ego (Psychology),Psychoanalysis and religion}
+    \endentry
+    \entry{SilvaBiografia2014}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=49cd37a327bccb10705ce4bc655b880e}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Izabel},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13c1adc8627e23a6728444f03b5e24c9}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=85d0c153b5f852e3d67ba930302239b0}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Marcus\bibnamedelimb de\bibnamedelima Lontra},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=489206ec0e9908124796ec22eeedeed3}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Raquel\bibnamedelima Martins},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=4397429a7dca760582c25001ad21502e}{%
+           family={Aquila},
+           familyi={A\bibinitperiod},
+           given={Luiz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {Memória Visual - Fotografia, Produção Editorial e Preservação de Acervos Ltda}%
+      }
+      \strng{namehash}{5c9c51c489041194e70e1c953ba138fd}
+      \strng{fullhash}{5c9c51c489041194e70e1c953ba138fd}
+      \strng{fullhashraw}{5c9c51c489041194e70e1c953ba138fd}
+      \strng{bibnamehash}{5c9c51c489041194e70e1c953ba138fd}
+      \strng{authorbibnamehash}{5c9c51c489041194e70e1c953ba138fd}
+      \strng{authornamehash}{5c9c51c489041194e70e1c953ba138fd}
+      \strng{authorfullhash}{5c9c51c489041194e70e1c953ba138fd}
+      \strng{authorfullhashraw}{5c9c51c489041194e70e1c953ba138fd}
+      \strng{editorbibnamehash}{54da05a546fcaac10ca172fa12b57a0e}
+      \strng{editornamehash}{54da05a546fcaac10ca172fa12b57a0e}
+      \strng{editorfullhash}{54da05a546fcaac10ca172fa12b57a0e}
+      \strng{editorfullhashraw}{54da05a546fcaac10ca172fa12b57a0e}
+      \strng{nameabibnamehash}{4397429a7dca760582c25001ad21502e}
+      \strng{nameanamehash}{4397429a7dca760582c25001ad21502e}
+      \strng{nameafullhash}{4397429a7dca760582c25001ad21502e}
+      \strng{nameafullhashraw}{4397429a7dca760582c25001ad21502e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Celeida tostes}
+      \field{day}{15}
+      \field{isbn}{978-85-63338-09-9}
+      \field{langid}{brazilian}
+      \field{month}{7}
+      \field{nameatype}{collaborator}
+      \field{title}{Biografia}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \keyw{Artes}
+    \endentry
+    \entry{gouveaSolTerraUso2021}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9171d45605f049b87226630b787596df}{%
+           family={Gouvêa},
+           familyi={G\bibinitperiod},
+           given={Álvaro\bibnamedelimb de\bibnamedelima Pinheiro},
+           giveni={Á\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Summus Editorial}%
+      }
+      \strng{namehash}{9171d45605f049b87226630b787596df}
+      \strng{fullhash}{9171d45605f049b87226630b787596df}
+      \strng{fullhashraw}{9171d45605f049b87226630b787596df}
+      \strng{bibnamehash}{9171d45605f049b87226630b787596df}
+      \strng{authorbibnamehash}{9171d45605f049b87226630b787596df}
+      \strng{authornamehash}{9171d45605f049b87226630b787596df}
+      \strng{authorfullhash}{9171d45605f049b87226630b787596df}
+      \strng{authorfullhashraw}{9171d45605f049b87226630b787596df}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-85-323-1131-3}
+      \field{langid}{brazilian}
+      \field{shorttitle}{Sol da terra}
+      \field{title}{Sol da terra: o uso do barro em psicoterapia}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{gullarManifestoNeoconcreto1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=47f8d910a72fa244b97555bae97e40e3}{%
+           family={Gullar},
+           familyi={G\bibinitperiod},
+           given={Ferreira},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \strng{namehash}{47f8d910a72fa244b97555bae97e40e3}
+      \strng{fullhash}{47f8d910a72fa244b97555bae97e40e3}
+      \strng{fullhashraw}{47f8d910a72fa244b97555bae97e40e3}
+      \strng{bibnamehash}{47f8d910a72fa244b97555bae97e40e3}
+      \strng{authorbibnamehash}{47f8d910a72fa244b97555bae97e40e3}
+      \strng{authornamehash}{47f8d910a72fa244b97555bae97e40e3}
+      \strng{authorfullhash}{47f8d910a72fa244b97555bae97e40e3}
+      \strng{authorfullhashraw}{47f8d910a72fa244b97555bae97e40e3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Publicado no Suplemento Dominical do Jornal do Brasil de 21 de março de 1959 por ocasião da I Exposição Neoconcreta, realizada no MAM/RJ (1959), o manifesto, escrito por Ferreira Gullar e assinado pelos artistas que participaram da exposição, o manifesto defende uma reinterpretação da arte geométrica (não figurativa) e destaca a importância de artistas como Piet Mondrian e Kazimir Malevich como referências essenciais do movimento que se rebelou especificamente contra as ideias propostas em São Paulo. O documento também insiste no conceito de independência artística em termos de conhecimento objetivo e prático, e compara a arte a organismos vivos, sugerindo que essa perspectiva só pode ser obtida por meios fenomenológicos. Referindo-se a temas da literatura "neoconcreta", o manifesto afirma que os signatários estão livres de quaisquer princípios dogmáticos, embora descreva certas afinidades em seus trabalhos.}
+      \field{day}{21}
+      \field{entrysubtype}{newspaper}
+      \field{journaltitle}{Jornal do Brasil}
+      \field{langid}{portuguese}
+      \field{month}{3}
+      \field{shorttitle}{Acervo}
+      \field{title}{Manifesto Neoconcreto}
+      \field{urlday}{29}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{1959}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2}
+      \range{pages}{1}
+      \verb{file}
+      \verb C:\Users\gassi\Zotero\storage\RP558UX9\manifesto-neoconcreto.html
+      \endverb
+      \verb{urlraw}
+      \verb https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto
+      \endverb
+      \verb{url}
+      \verb https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto
+      \endverb
+    \endentry
+    \entry{jacobiComplexoArquetipoSimbolo2021}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d00f06ed63abf17d902bff73f1bed3ac}{%
+           family={Jacobi},
+           familyi={J\bibinitperiod},
+           given={Jolande},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Petrópolis}%
+      }
+      \list{publisher}{1}{%
+        {Editora Vozes}%
+      }
+      \strng{namehash}{d00f06ed63abf17d902bff73f1bed3ac}
+      \strng{fullhash}{d00f06ed63abf17d902bff73f1bed3ac}
+      \strng{fullhashraw}{d00f06ed63abf17d902bff73f1bed3ac}
+      \strng{bibnamehash}{d00f06ed63abf17d902bff73f1bed3ac}
+      \strng{authorbibnamehash}{d00f06ed63abf17d902bff73f1bed3ac}
+      \strng{authornamehash}{d00f06ed63abf17d902bff73f1bed3ac}
+      \strng{authorfullhash}{d00f06ed63abf17d902bff73f1bed3ac}
+      \strng{authorfullhashraw}{d00f06ed63abf17d902bff73f1bed3ac}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-85-326-5328-4}
+      \field{langid}{brazilian}
+      \field{shorttitle}{Complexo, arquétipo e símbolo}
+      \field{title}{Complexo, arquétipo e símbolo: na psicologia de C.G Jung}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{jungOsArquetiposInconsciente2007}{mvbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b510fd523fa8963360c262f09996cbee}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Carl\bibnamedelima Gustav},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{useprefix=false,hash=d85fe3055e625e619fe67e730ac7004f}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Dora\bibnamedelimb Mariana\bibnamedelimb R.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=6aee7467de4a7d9b046c2de92ea6d6f5}{%
+           family={Appy},
+           familyi={A\bibinitperiod},
+           given={Maria\bibnamedelima Luíza},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Petropolis}%
+      }
+      \list{publisher}{1}{%
+        {Vozes}%
+      }
+      \strng{namehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{bibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorbibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authornamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{translatorbibnamehash}{86758ae84a07c8c8a8af0768599d5f16}
+      \strng{translatornamehash}{86758ae84a07c8c8a8af0768599d5f16}
+      \strng{translatorfullhash}{86758ae84a07c8c8a8af0768599d5f16}
+      \strng{translatorfullhashraw}{86758ae84a07c8c8a8af0768599d5f16}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{5}
+      \field{isbn}{978-85-326-2354-6}
+      \field{pagetotal}{445}
+      \field{series}{Obras completas de {{C}}.{{G}}. {{Jung}}}
+      \field{shorttitle}{Obras completas de {{C}}.{{G}}. {{Jung}}. 9/1}
+      \field{title}{Os arquétipos e o inconsciente coletivo}
+      \field{volume}{1}
+      \field{volumes}{9}
+      \field{year}{2007}
+      \field{dateera}{ce}
+    \endentry
+    \entry{nameLamaAoCaos2014}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9a0ded88d1f0b7c875396f1fbd1eb92}{%
+           family={Name},
+           familyi={N\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=85d0c153b5f852e3d67ba930302239b0}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Marcus\bibnamedelimb de\bibnamedelima Lontra},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=489206ec0e9908124796ec22eeedeed3}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Raquel\bibnamedelima Martins},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=4397429a7dca760582c25001ad21502e}{%
+           family={Aquila},
+           familyi={A\bibinitperiod},
+           given={Luiz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {Memória Visual - Fotografia, Produção Editorial e Preservação de Acervos Ltda}%
+      }
+      \strng{namehash}{b9a0ded88d1f0b7c875396f1fbd1eb92}
+      \strng{fullhash}{b9a0ded88d1f0b7c875396f1fbd1eb92}
+      \strng{fullhashraw}{b9a0ded88d1f0b7c875396f1fbd1eb92}
+      \strng{bibnamehash}{b9a0ded88d1f0b7c875396f1fbd1eb92}
+      \strng{authorbibnamehash}{b9a0ded88d1f0b7c875396f1fbd1eb92}
+      \strng{authornamehash}{b9a0ded88d1f0b7c875396f1fbd1eb92}
+      \strng{authorfullhash}{b9a0ded88d1f0b7c875396f1fbd1eb92}
+      \strng{authorfullhashraw}{b9a0ded88d1f0b7c875396f1fbd1eb92}
+      \strng{editorbibnamehash}{54da05a546fcaac10ca172fa12b57a0e}
+      \strng{editornamehash}{54da05a546fcaac10ca172fa12b57a0e}
+      \strng{editorfullhash}{54da05a546fcaac10ca172fa12b57a0e}
+      \strng{editorfullhashraw}{54da05a546fcaac10ca172fa12b57a0e}
+      \strng{nameabibnamehash}{4397429a7dca760582c25001ad21502e}
+      \strng{nameanamehash}{4397429a7dca760582c25001ad21502e}
+      \strng{nameafullhash}{4397429a7dca760582c25001ad21502e}
+      \strng{nameafullhashraw}{4397429a7dca760582c25001ad21502e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Celeida tostes}
+      \field{day}{15}
+      \field{isbn}{978-85-63338-09-9}
+      \field{langid}{brazilian}
+      \field{month}{7}
+      \field{nameatype}{collaborator}
+      \field{title}{Da lama ao caos, do caos à lama}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \keyw{Artes}
+    \endentry
+    \entry{neumannFearFeminineOther1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a09af5483a686d73f4f3016a14d337ce}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={Erich},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton, N.J}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{fullhash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{fullhashraw}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{bibnamehash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{authorbibnamehash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{authornamehash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{authorfullhash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{authorfullhashraw}{a09af5483a686d73f4f3016a14d337ce}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-691-24282-8}
+      \field{langid}{english}
+      \field{number}{v. 4}
+      \field{pagetotal}{1}
+      \field{series}{Essays of {{Erich Neumann}}}
+      \field{title}{The fear of the feminine and other essays on feminine psychology}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \keyw{Femininity,Psychoanalysis}
+    \endentry
+    \entry{neumannGreatMotherAnalysis1955}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a09af5483a686d73f4f3016a14d337ce}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={Erich},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton, New Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{fullhash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{fullhashraw}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{bibnamehash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{authorbibnamehash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{authornamehash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{authorfullhash}{a09af5483a686d73f4f3016a14d337ce}
+      \strng{authorfullhashraw}{a09af5483a686d73f4f3016a14d337ce}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{First Princeton classics edition}
+      \field{isbn}{978-0-691-16607-0}
+      \field{langid}{english}
+      \field{number}{XLVII}
+      \field{origyear}{1955}
+      \field{pagetotal}{380}
+      \field{series}{Bollingen series}
+      \field{shorttitle}{The {{Great Mother}}}
+      \field{title}{The {{Great Mother}}: an analysis of the archetype}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{origdateera}{ce}
+      \keyw{(fast)Mother goddesses,(fast)Religions,(lcsh)Mother goddesses,(lcsh)Religions,Archetypus,Mother goddesses,Mutter,Muttergottheit,Religions,Symbol,Tiefenpsychologie}
+    \endentry
+    \entry{rilkeLetterWitoldHulewicz1972}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19145cef08f62829c756f82036d4ffaf}{%
+           family={Rilke},
+           familyi={R\bibinitperiod},
+           given={Rainer\bibnamedelima Maria},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=7f7dd71f6ff4aaf07f4f74967a1d7d92}{%
+           family={Greene},
+           familyi={G\bibinitperiod},
+           given={Jane\bibnamedelima Bannard},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=b3d0badb0aa678127e5d037c8e593d8a}{%
+           family={Herter},
+           familyi={H\bibinitperiod},
+           given={Norton},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Magnolia, MA}%
+      }
+      \list{publisher}{1}{%
+        {P. Smith}%
+      }
+      \strng{namehash}{19145cef08f62829c756f82036d4ffaf}
+      \strng{fullhash}{19145cef08f62829c756f82036d4ffaf}
+      \strng{fullhashraw}{19145cef08f62829c756f82036d4ffaf}
+      \strng{bibnamehash}{19145cef08f62829c756f82036d4ffaf}
+      \strng{authorbibnamehash}{19145cef08f62829c756f82036d4ffaf}
+      \strng{authornamehash}{19145cef08f62829c756f82036d4ffaf}
+      \strng{authorfullhash}{19145cef08f62829c756f82036d4ffaf}
+      \strng{authorfullhashraw}{19145cef08f62829c756f82036d4ffaf}
+      \strng{translatorbibnamehash}{7314d18c28d1af933106cd3f5f04ab2d}
+      \strng{translatornamehash}{7314d18c28d1af933106cd3f5f04ab2d}
+      \strng{translatorfullhash}{7314d18c28d1af933106cd3f5f04ab2d}
+      \strng{translatorfullhashraw}{7314d18c28d1af933106cd3f5f04ab2d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Letters of {{Rainer Maria Rilke}} 1910-1926}
+      \field{isbn}{978-0-393-00477-9 978-0-393-00476-2}
+      \field{langid}{english}
+      \field{origyear}{1925}
+      \field{title}{Letter to {{Witold}} von {{Hulewicz}} [postmarked {{Sierre}}, {{November}}, 13, 1925]}
+      \field{year}{1972}
+      \field{dateera}{ce}
+      \field{origdateera}{ce}
+    \endentry
+    \entry{saldanhaEscolaArtesVisuais2017}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f05f026c69a71244842d3829a774cec1}{%
+           family={Saldanha},
+           familyi={S\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Montevideo}%
+      }
+      \list{publisher}{1}{%
+        {Mastergraf}%
+      }
+      \strng{namehash}{f05f026c69a71244842d3829a774cec1}
+      \strng{fullhash}{f05f026c69a71244842d3829a774cec1}
+      \strng{fullhashraw}{f05f026c69a71244842d3829a774cec1}
+      \strng{bibnamehash}{f05f026c69a71244842d3829a774cec1}
+      \strng{authorbibnamehash}{f05f026c69a71244842d3829a774cec1}
+      \strng{authornamehash}{f05f026c69a71244842d3829a774cec1}
+      \strng{authorfullhash}{f05f026c69a71244842d3829a774cec1}
+      \strng{authorfullhashraw}{f05f026c69a71244842d3829a774cec1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{V {{Coloquio Internacional Educación}} y {{Visualidad}}}
+      \field{eventtitle}{V {{Coloquio Internacional Educación}} y {{Visualidad}}}
+      \field{isbn}{978-9974-0-1461-9}
+      \field{title}{A {{Escola}} de {{Artes Visuais}} do {{Parque Lage}}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{sassFlawGreatDiamond2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b683e277a45d327fc72f7a64d392e58}{%
+           family={Sass},
+           familyi={S\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6b683e277a45d327fc72f7a64d392e58}
+      \strng{fullhash}{6b683e277a45d327fc72f7a64d392e58}
+      \strng{fullhashraw}{6b683e277a45d327fc72f7a64d392e58}
+      \strng{bibnamehash}{6b683e277a45d327fc72f7a64d392e58}
+      \strng{authorbibnamehash}{6b683e277a45d327fc72f7a64d392e58}
+      \strng{authornamehash}{6b683e277a45d327fc72f7a64d392e58}
+      \strng{authorfullhash}{6b683e277a45d327fc72f7a64d392e58}
+      \strng{authorfullhashraw}{6b683e277a45d327fc72f7a64d392e58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1547-3333, 0887-3267}
+      \field{journaltitle}{The Humanistic Psychologist}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shortjournal}{The Humanistic Psychologist}
+      \field{shorttitle}{A flaw in the great diamond of the world}
+      \field{title}{A flaw in the great diamond of the world”: reflections on subjectivity and the enterprise of psychology (a diptych)}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{50}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3\bibrangedash 32}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1037/hum0000186
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.apa.org/doi/10.1037/hum0000186
+      \endverb
+      \verb{url}
+      \verb https://doi.apa.org/doi/10.1037/hum0000186
+      \endverb
+    \endentry
+    \entry{silveiraImagensInconsciente2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,useprefix=false,hash=9e90df888eaf0f5d8a06daa59fd5d956}{%
+           family={Silveira},
+           familyi={S\bibinitperiod},
+           given={Nise},
+           giveni={N\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{location}{1}{%
+        {Petropólis}%
+      }
+      \list{publisher}{1}{%
+        {Editora Vozes}%
+      }
+      \strng{namehash}{9e90df888eaf0f5d8a06daa59fd5d956}
+      \strng{fullhash}{9e90df888eaf0f5d8a06daa59fd5d956}
+      \strng{fullhashraw}{9e90df888eaf0f5d8a06daa59fd5d956}
+      \strng{bibnamehash}{9e90df888eaf0f5d8a06daa59fd5d956}
+      \strng{authorbibnamehash}{9e90df888eaf0f5d8a06daa59fd5d956}
+      \strng{authornamehash}{9e90df888eaf0f5d8a06daa59fd5d956}
+      \strng{authorfullhash}{9e90df888eaf0f5d8a06daa59fd5d956}
+      \strng{authorfullhashraw}{9e90df888eaf0f5d8a06daa59fd5d956}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-85-326-4985-0}
+      \field{pagetotal}{337}
+      \field{shorttitle}{Imagens do inconsciente}
+      \field{title}{Imagens do inconsciente}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \keyw{Psychoanalysis and art}
+    \endentry
+    \entry{trizoliTrajetoriasReginaVater2011}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a61d1b3d741c4510c72ee9dd4dfb224}{%
+           family={Trizoli},
+           familyi={T\bibinitperiod},
+           given={Talita},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {USP}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \strng{namehash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{fullhash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{fullhashraw}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{bibnamehash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{authorbibnamehash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{authornamehash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{authorfullhash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{authorfullhashraw}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Trajetórias de {{Regina Vater}}. {{Por}} uma crítica feminista da arte brasileira}
+      \field{type}{Dissertação apresentada ao Programa Interunidades de Estética e História da Arte da Universidade de São Paulo para obtenção do título de Mestre em Estética e História da Arte.}
+      \field{year}{2011}
+      \field{dateera}{ce}
+    \endentry
+    \entry{trizoliCriticaArteFeminismo2012}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a61d1b3d741c4510c72ee9dd4dfb224}{%
+           family={Trizoli},
+           familyi={T\bibinitperiod},
+           given={Talita},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=971a52a784d0b0e5a86236fdfbb83f19}{%
+           family={Monteiro},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=98b7b57adb285b940681510d55bf531c}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Goiânia}%
+      }
+      \list{publisher}{1}{%
+        {UFG, FAV}%
+      }
+      \strng{namehash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{fullhash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{fullhashraw}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{bibnamehash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{authorbibnamehash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{authornamehash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{authorfullhash}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{authorfullhashraw}{0a61d1b3d741c4510c72ee9dd4dfb224}
+      \strng{editorbibnamehash}{ba66a159fdaf491e3f09797fd410a487}
+      \strng{editornamehash}{ba66a159fdaf491e3f09797fd410a487}
+      \strng{editorfullhash}{ba66a159fdaf491e3f09797fd410a487}
+      \strng{editorfullhashraw}{ba66a159fdaf491e3f09797fd410a487}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Anais do {{V}} seminário nacional de pesquisa em arte e cultura visual}
+      \field{title}{Crítica de arte e feminismo no {{Brasil}} dos anos 60 e 70}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://files.cercomp.ufg.br/weby/up/778/o/2012-48_Critica_de_Arte.pdf
+      \endverb
+      \verb{url}
+      \verb https://files.cercomp.ufg.br/weby/up/778/o/2012-48_Critica_de_Arte.pdf
+      \endverb
+    \endentry
+    \entry{zacharias2025}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=337ceb1010bd759ba60522a5a9622923}{%
+           family={Zacharias},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15aa925c644fee6a2aef41cf57defd23}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Petropólis}%
+      }
+      \list{publisher}{1}{%
+        {Vozes}%
+      }
+      \strng{namehash}{b147629ea235bda1eac0162f027e882a}
+      \strng{fullhash}{b147629ea235bda1eac0162f027e882a}
+      \strng{fullhashraw}{b147629ea235bda1eac0162f027e882a}
+      \strng{bibnamehash}{b147629ea235bda1eac0162f027e882a}
+      \strng{authorbibnamehash}{b147629ea235bda1eac0162f027e882a}
+      \strng{authornamehash}{b147629ea235bda1eac0162f027e882a}
+      \strng{authorfullhash}{b147629ea235bda1eac0162f027e882a}
+      \strng{authorfullhashraw}{b147629ea235bda1eac0162f027e882a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orí {{Àse}}: a dimensão arquetípica dos orixás}
+      \field{year}{2025}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
