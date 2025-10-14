@@ -10,13 +10,28 @@ Veja abaixo a organização dos arquivos e pastas do template:
 
 ```
 artigosacademicos/
-├── main.tex          # Arquivo principal do artigo
-├── sections/         # Diretório com seções (introdução, metodologia, etc.)
-├── figures/          # Imagens e gráficos
-├── references.bib    # Arquivo BibTeX com referências bibliográficas
-├── preamble.tex      # Configurações de pacotes e comandos personalizados
-├── .gitignore        # Ignora arquivos temporários do LaTeX
-└── README.md         # Este documento
+│
+├── templates/
+│   └── ABNT/
+│       ├── main_abnt.tex          ← arquivo principal do artigo
+│       ├── preambulo_abnt.tex     ← configuração e pacotes ABNT
+│       └── .latexmkrc             ← define pdfLaTeX e biber como padrão
+│
+├── sections/
+│   └── feminismo_em_passagem.tex  ← conteúdo principal do artigo
+│
+├── figures/
+│   ├── Celeida.jpg
+│   ├── parque_lage.jpg
+│   ├── aldeia_furnarius_rufus.jpg
+│   ├── passagem_1.png
+│   └── passagem_2.jpg
+│
+├── bibliografia/
+│   └── referencias.bib            ← base de dados bibliográfica
+│
+├── .gitignore                     ← ignora arquivos temporários LaTeX
+└── README.md                      ← este arquivo
 ```
 
 ---
@@ -63,6 +78,17 @@ Este template foi criado para pesquisadores, estudantes e profissionais que dese
 - Compatibilidade com múltiplos idiomas (Português, Inglês e Espanhol)  
 - Configurações pré-definidas que atendem às normas editoriais mais comuns  
 - Facilidade na inclusão de figuras, tabelas e referências bibliográficas  
+
+---
+
+🧩 Dependências recomendadas
+
+Certifique-se de ter os seguintes pacotes e ferramentas instalados (via TeX Live 2025):
+	•	latexmk
+	•	biber
+	•	biblatex-abnt
+	•	newtxtext, newtxmath
+	•	titlesec, csquotes, microtype, geometry, fancyhdr  
 
 ---
 

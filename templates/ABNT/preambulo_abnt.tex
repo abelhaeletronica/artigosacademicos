@@ -1,4 +1,4 @@
-% !TeX root = main.tex
+% !TeX root = main_abnt.tex
 % ----------------- Pacotes base (pdfLaTeX) -----------------
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -8,6 +8,7 @@
 \usepackage{newtxmath}
 \usepackage{microtype}
 \usepackage{graphicx}
+\graphicspath{{../../figures/}}
 \usepackage{titlesec}   % títulos de seção
 \usepackage{csquotes}
 \usepackage{changepage} % adjustwidth (citação longa)
@@ -39,7 +40,8 @@
   sorting=nyt
 ]{biblatex}
 \DeclareLanguageMapping{brazil}{brazil-abnt}
-\addbibresource{referencias.bib}
+\addbibresource{../../bibliografia/referencias.bib}
+
 
 \ExecuteBibliographyOptions{repeatfields=false} % não repete autor em entradas subsequentes
 
