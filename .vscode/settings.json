@@ -1,8 +1,29 @@
 {
   "latex-workshop.latex.tools": [
-    { "name": "xelatex", "command": "xelatex", "args": ["-interaction=nonstopmode", "-synctex=1", "%DOC%"] },
-    { "name": "biber",   "command": "biber",   "args": ["%DOCFILE%"] }
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-interaction=nonstopmode",
+        "-synctex=1",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "biber",
+      "command": "biber",
+      "args": [
+        // Se NÃO usar outDir, %DOCFILE% sozinho já basta:
+        "%DOCFILE%",
+        // Se usar outDir (ou futuramente passar a usar), estes dois garantem que biber
+        // leia/grave no mesmo lugar do PDF/BCF:
+        "--input-directory=%OUTDIR%",
+        "--output-directory=%OUTDIR%"
+      ]
+    }
   ],
+
   "latex-workshop.latex.recipes": [
     {
       "name": "XeLaTeX ➜ biber ➜ XeLaTeX ➜ XeLaTeX",
@@ -10,10 +31,22 @@
     }
   ],
   "latex-workshop.latex.recipe.default": "XeLaTeX ➜ biber ➜ XeLaTeX ➜ XeLaTeX",
+
   "latex-workshop.view.pdf.viewer": "tab",
+
   "latex-workshop.latex.clean.fileTypes": [
-    "*.aux", "*.bbl", "*.bcf", "*.blg", "*.fdb_latexmk", "*.fls", "*.log", "*.out",
-    "*.run.xml", "*.synctex(busy)", "*.synctex.gz", "*.toc"
+    "*.aux", "*.bbl", "*.bcf", "*.blg", "*.fdb_latexmk", "*.fls", "*.log",
+    "*.out", "*.run.xml", "*.synctex(busy)", "*.synctex.gz", "*.toc"
   ],
-  "latex-workshop.latexmk.enabled": false
+
+  // Você está rodando sem latexmk; mantenho desativado.
+  "latex-workshop.latexmk.enabled": false,
+
+  // Qual motor e qual arquivo raiz (garante que o Workshop use o main certo):
+  "latex-workshop.latex.rootFile.useSubFile": false,
+  "latex-workshop.latex.magic.args": [],
+
+  // Opcional: compilar ao salvar e melhorar sync
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.synctex.afterBuild.enabled": true
 }
