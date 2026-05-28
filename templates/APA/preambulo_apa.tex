@@ -1,0 +1,149 @@
+% !TeX root = main_apa.tex
+% ----------------- Pacotes base (pdfLaTeX) -----------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+% Fonte semelhante à Times no pdfLaTeX
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+\usepackage{microtype}
+\usepackage{graphicx}
+\graphicspath{{../../figures/}}
+\usepackage{titlesec}   % títulos de seção
+\usepackage{csquotes}
+\usepackage{changepage} % adjustwidth (citação longa)
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
+
+\usepackage{flafter}  % figuras sempre após serem citadas
+
+\raggedbottom
+
+% Links clicáveis e URLs bem formatadas (carregar perto do fim)
+\usepackage{xurl} % quebra URLs longas automaticamente
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black]{hyperref}
+\urlstyle{same} % URLs com a mesma fonte do texto
+
+% Cabeçalho/rodapé
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ----------------- Bibliografia ABNT -----------------
+\usepackage[
+  backend=biber,
+  style=apa,
+  language=brazil,
+  sorting=nyt
+]{biblatex}
+\DeclareLanguageMapping{brazil}{brazil-apa}
+\addbibresource{../../bibliografia/referencias.bib}
+
+
+\ExecuteBibliographyOptions{repeatfields=false} % não repete autor em entradas subsequentes
+
+% Ajustes de espaçamento da bibliografia
+\defbibenvironment{bibliography}
+  {\list{}{%
+      \setlength{\leftmargin}{0pt}%
+      \setlength{\itemindent}{0pt}%
+      \setlength{\itemsep}{6pt}% 6pt entre entradas
+      \setlength{\parsep}{0pt}%
+      \setlength{\parskip}{0pt}% zera parskip dentro da lista
+      \setlength{\topsep}{0pt}%
+      \setlength{\partopsep}{0pt}%
+  }}
+  {\endlist}
+  {\item}
+
+% ----------------- Formatação pedida -----------------
+% Títulos/seções: TNR 12, bold, alinhado à esquerda, 12pt antes e depois
+\titleformat{\section}
+  {\bfseries\fontsize{12}{12}\selectfont\raggedright}{\thesection}{0.6em}{}
+\titleformat{\subsection}
+  {\bfseries\fontsize{12}{12}\selectfont\raggedright}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}
+  {\bfseries\fontsize{12}{12}\selectfont\raggedright}{\thesubsubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
+\titlespacing*{\subsubsection}{0pt}{12pt}{6pt}
+
+% Citação longa: recuo 2cm, TNR 11, simples, 6pt entre parágrafos
+\newenvironment{citacao}{%
+  \begin{adjustwidth}{2cm}{0cm}%
+  \fontsize{11}{11}\selectfont
+  \setlength{\parskip}{6pt}%
+}{%
+  \end{adjustwidth}%
+}
+
+% Notas de rodapé: TNR 10 pt, simples
+\renewcommand{\footnotesize}{\fontsize{10}{12}\selectfont}
+\setlength{\footnotesep}{6pt}
+
+% ----------------- Garantia de zero recuo -----------------
+\AtBeginDocument{%
+  \setlength{\parindent}{0pt} % sem recuo em nenhum parágrafo
+  \setlength{\parskip}{6pt}   % 6 pt entre parágrafos
+}
+
+% ----------------- Bloco de abertura personalizado -----------------
+
+% Título (central, 12pt, negrito, CAIXA ALTA) + 6pt abaixo
+\newenvironment{artigoheader}[1]{%
+  \begin{center}
+    {\fontsize{12}{12}\selectfont\bfseries\MakeUppercase{#1}\par}
+  \end{center}
+  \vspace{6pt}
+}{}
+
+% Autores (TNR 12, à direita, simples, 6pt entre nomes)
+\newcommand{\artigoauthors}{%
+  \begin{flushright}
+    \fontsize{12}{12}\selectfont
+    % --- Autor 1 ---
+    Teresa Lousa\footnote{%
+      Afiliação. %
+      Lattes: \href{http://lattes.cnpq.br/XXXX}{lattes.cnpq.br/XXXX}. %
+      ORCID: \href{https://orcid.org/0000-0000-0000-0000}{0000-0000-0000-0000}. %
+      E-mail: \href{mailto:nome@dominio}{nome@dominio}.%
+    }
+
+    \vspace{6pt}
+
+    % --- Autor 2 ---
+    Gustavo de Assis\footnote{%
+      Mestrando em Arte e Ciência do Vidro e da Cerâmica (Universidade Nova de Lisboa). %
+      Pós-graduação em Arteterapia e Expressões Criativas (IJEP). %
+      Graduação em Arquitetura e Urbanismo (UFRJ). %
+      Lattes: \href{http://lattes.cnpq.br/9050464193535080}{lattes.cnpq.br/9050464193535080}. %
+      ORCID: \href{https://orcid.org/0009-0002-4167-0732}{0009-0002-4167-0732}. %
+      E-mail: \href{mailto:guteoassis@gmail.com}{guteoassis@gmail.com}.%
+    }
+  \end{flushright}
+}
+
+% Resumos multilíngues (Resumo / Abstract / Resumen) — sem recuo e espaçamento limpo
+\newenvironment{resumos}{%
+  \vspace{12pt}%
+  \par % fecha o parágrafo anterior
+  \setlength{\parindent}{0pt}% blinda contra recuo aqui dentro
+}{}
+
+\newcommand{\resumo}[2]{%
+  \noindent\textbf{Resumo \textendash\ }#1\par
+  \noindent\textbf{Palavras\textendash chave: }#2\par\vspace{12pt}%
+}
+
+\newcommand{\myabstract}[2]{%
+  \noindent\textbf{Abstract \textendash\ }#1\par
+  \noindent\textbf{Keywords: }#2\par\vspace{12pt}%
+}
+
+\newcommand{\resumen}[2]{%
+  \noindent\textbf{Resumen \textendash\ }#1\par
+  \noindent\textbf{Palabras\textendash clave: }#2\par\vspace{12pt}%
+}
